@@ -1,4 +1,3 @@
-# (c) @biisal
 from pyrogram import Client
 from info import *
 

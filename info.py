@@ -1,4 +1,3 @@
-# (c) @biisal
 from os import getenv
 import re
 
@@ -14,19 +13,19 @@ def is_enabled(value, default):
         return default
 
 
-ADMIN = int(getenv("ADMIN", ""))
-API_ID = int(getenv("API_ID", ""))
-API_HASH = str(getenv("API_HASH", ""))
-BOT_TOKEN = str(getenv("BOT_TOKEN", ""))
+ADMIN = int(getenv("ADMIN", "6727691050"))
+API_ID = int(getenv("API_ID", "29101731"))
+API_HASH = str(getenv("API_HASH", "a89da29d52632d195c9912067d1947f5"))
+BOT_TOKEN = str(getenv("BOT_TOKEN", "7915896160:AAFk3iNfFqUfAASG0KNZaIVxI766QUXJiCU"))
 MONGO_DB = str(
     getenv(
         "MONGO_DB",
-        "mongodb+srv://replacewithyourmongodb:replacewithyourmongodb@cluster0.zi78j51.mongodb.net/?retryWrites=true&w=majority",
+        "mongodb+srv://rename1215:<dbrename1215>@cluster0.vch58.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
     )
 )
 DEF_CAP = str(
     getenv(
         "DEF_CAP",
-        "<b><a href='telegram.me/bisal_files'>{file_name} Telegram : @Bisal_Files\n\nForward the file before Downloading.</a></b>",
+        "<b><a href='https://t.me/+Zw_zIhwCMHk2MTk9'>{file_name} Telegram : @BotZ_Umesh\n\nForward the file before Downloading.</a></b>",
     )
 )
